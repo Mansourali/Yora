@@ -22,25 +22,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Yora! log in"
-            android:id="@+id/YoraLogIn" />
+            android:id="@+id/Activity_login_YoraLogIn" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Yora! Register"
-            android:id="@+id/YoraRegister" />
+            android:id="@+id/Activity_login_YoraRegister" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Facebook login"
-            android:id="@+id/FacebookLogIn" />
+            android:id="@+id/Activity_login_FacebookLogIn" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Google Login"
-            android:id="@+id/GoogleLogin" />
+            android:id="@+id/Activity_login_GoogleLogin" />
 
     </LinearLayout>
 

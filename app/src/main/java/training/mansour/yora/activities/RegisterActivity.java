@@ -25,7 +25,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         userName = (EditText) findViewById(R.id.RegisterUserNameEdit);
         email = (EditText) findViewById(R.id.RegisterEmailEdit);
         passWord = (EditText) findViewById(R.id.RegisterPasswordEdit);
-        register = (Button) findViewById(R.id.registerButton);
+        register = (Button) findViewById(R.id.Activity_register_registerButton);
         progressBar = findViewById(R.id.RegisterProgressBar);
 
         register.setOnClickListener(this);

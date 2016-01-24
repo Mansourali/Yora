@@ -38,14 +38,20 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener 
     public void onClick(View view) {
         if (view == loginButton) {
             yoraApplication.getAuth().getUser().setLoggedIn(true);
-            callBacks.isLoginIn();
+            callBacks.onLoginIn();
         }
     }
 
-    @Override
+/*    @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         callBacks = (CallBacks) activity;
+    }*/
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        callBacks = (CallBacks) getActivity();
     }
 
     @Override
@@ -55,6 +61,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener 
     }
 
     public interface CallBacks {
-        void isLoginIn();
+        void onLoginIn();
     }
 }

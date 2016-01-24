@@ -48,7 +48,7 @@
             android:background="@color/colorPrimaryDark"
             android:textColor="#ffffff"
             android:layout_below="@id/RegisterPasswordEdit"
-            android:id="@+id/registerButton" />
+            android:id="@+id/Activity_register_registerButton" />
 
         <ProgressBar
             android:layout_width="wrap_content"
@@ -56,8 +56,8 @@
             android:indeterminateOnly="true"
             android:id="@+id/RegisterProgressBar"
             android:layout_centerHorizontal="true"
-            android:layout_alignTop="@id/registerButton"
-            android:layout_alignBottom="@id/registerButton" />
+            android:layout_alignTop="@id/Activity_register_registerButton"
+            android:layout_alignBottom="@id/Activity_register_registerButton" />
 
     </RelativeLayout>
 

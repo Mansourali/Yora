@@ -17,7 +17,7 @@ public class LoginNarrowActivity extends BaseActivity implements LoginFragment.C
     }
 
     @Override
-    public void isLoginIn() {
+    public void onLoginIn() {
         setResult(RESULT_OK);
         finish();
     }
