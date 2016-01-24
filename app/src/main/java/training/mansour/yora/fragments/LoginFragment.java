@@ -20,6 +20,7 @@ import training.mansour.yora.R;
 public class LoginFragment extends BaseFragment implements View.OnClickListener {
     private Button loginButton;
     private CallBacks callBacks;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener 
 
     @Override
     public void onClick(View view) {
-        if (view == loginButton){
+        if (view == loginButton) {
             yoraApplication.getAuth().getUser().setLoggedIn(true);
             callBacks.isLoginIn();
         }

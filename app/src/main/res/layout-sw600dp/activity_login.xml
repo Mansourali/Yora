@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/include_login_header"
-        android:id="@+id/include_login_header"/>
+    <include
+        layout="@layout/include_login_header"
+        android:id="@+id/include_login_header" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,8 +29,7 @@
                 android:layout_height="match_parent"
                 android:name="training.mansour.yora.fragments.LoginFragment"
                 android:id="@+id/FragmentNarrowLogin"
-                tools:layout="@layout/fragment_login">
-            </fragment>
+                tools:layout="@layout/fragment_login"></fragment>
 
         </FrameLayout>
 
@@ -39,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="Yora! Register"
             android:layout_marginTop="16dp"
-            android:id="@+id/YoraRegister"/>
+            android:id="@+id/YoraRegister" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,20 +46,21 @@
             android:orientation="horizontal"
             android:layout_marginTop="8dp">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Facebook login"
-            android:id="@+id/FacebookLogIn"
-            android:layout_marginRight="8dp"
-            android:layout_weight="1"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Google Login"
-            android:id="@+id/GoogleLogin"
-            android:layout_marginLeft="8dp"
-            android:layout_weight="1"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook login"
+                android:id="@+id/FacebookLogIn"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Login"
+                android:id="@+id/GoogleLogin"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1" />
 
         </LinearLayout>
 

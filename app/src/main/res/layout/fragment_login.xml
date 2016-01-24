@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -10,7 +9,7 @@
         android:hint="User Name"
         android:singleLine="true"
         android:layout_marginBottom="8dp"
-        android:id="@+id/FragmentUserName"/>
+        android:id="@+id/FragmentUserName" />
 
     <EditText
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
         android:inputType="textPassword"
         android:layout_marginBottom="8dp"
         android:layout_below="@id/FragmentUserName"
-        android:id="@+id/FragmentPassword"/>
+        android:id="@+id/FragmentPassword" />
 
     <Button
         android:layout_width="match_parent"
@@ -29,6 +28,6 @@
         android:text="Login"
         android:background="@color/colorPrimaryDark"
         android:textColor="#ffffff"
-        android:id="@+id/FragmentLoginButton"/>
+        android:id="@+id/FragmentLoginButton" />
 
 </RelativeLayout>

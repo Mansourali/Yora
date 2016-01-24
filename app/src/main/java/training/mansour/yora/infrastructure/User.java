@@ -5,7 +5,7 @@ package training.mansour.yora.infrastructure;
  */
 
 public class User {
-    private  int id;
+    private int id;
     private String userName;
     private String displayName;
     private String avatarUrl;

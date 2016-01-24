@@ -17,5 +17,5 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedState) {
         super.onCreate(savedState);
         yoraApplication = (YoraApplication) getApplication();
-     }
+    }
 }

@@ -10,6 +10,7 @@ import training.mansour.yora.infrastructure.YoraApplication;
  */
 public abstract class BaseFragment extends Fragment {
     protected YoraApplication yoraApplication;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

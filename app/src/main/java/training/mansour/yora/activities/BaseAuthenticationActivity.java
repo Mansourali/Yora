@@ -14,7 +14,7 @@ public abstract class BaseAuthenticationActivity extends BaseActivity {
     protected final void onCreate(Bundle savedState) { // its final because not allowed to overridden by other child/subclasses class
         super.onCreate(savedState);
 
-        if (!yoraApplication.getAuth().getUser().isLoggedIn()){  // to check id the user is login or not, if not will fire the login class
+        if (!yoraApplication.getAuth().getUser().isLoggedIn()) {  // to check id the user is login or not, if not will fire the login class
             startActivity(new Intent(this, LogonActivity.class));
             finish();
             return;
